@@ -1,0 +1,49 @@
+body {
+    margin: auto;
+}
+
+header {
+    display: flex;
+}
+
+#container {
+    display: flex;
+}
+
+#photo_cv {
+    width: 200px;
+    margin: auto;
+}
+
+.bloc_gauche {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #f3f3f3;
+}
+
+.bloc_droite {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+p {
+    margin: 10px 20px;
+}
+
+i {
+    padding-right: 10px;
+}
+
+
+/*------Titres------*/
+
+h2 {
+    border-bottom: 1px solid black;
+    margin: 20px 20px 0px 20px;
+}
+
+h3 {
+    margin: 20px;
+}
