@@ -1,49 +1,187 @@
-body {
-    margin: auto;
-}
-
-header {
-    display: flex;
-}
-
-#container {
-    display: flex;
-}
-
-#photo_cv {
-    width: 200px;
-    margin: auto;
-}
-
-.bloc_gauche {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    background-color: #f3f3f3;
-}
-
-.bloc_droite {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-}
-
-p {
-    margin: 10px 20px;
-}
-
-i {
-    padding-right: 10px;
-}
-
-
-/*------Titres------*/
-
-h2 {
-    border-bottom: 1px solid black;
-    margin: 20px 20px 0px 20px;
-}
-
-h3 {
-    margin: 20px;
-}
+    body {
+        margin: auto;
+    }
+    
+    header {
+        display: flex;
+    }
+    
+    #container {
+        display: flex;
+    }
+    
+    #photo_cv {
+        position: absolute;
+        border-radius: 50% 2px;
+        border: 2px solid white;
+        width: 10vw;
+        margin-top: 1vw;
+        margin-left: 10vw;
+    }
+    
+    .bloc_gauche {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        background-color: #f4f9fc;
+    }
+    
+    .bloc_droite {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    
+    p {
+        margin: 10px 40px 10px 120px;
+    }
+    
+    .bloc_gauche_interieur {
+        margin-left: 40px;
+        text-align: justify;
+    }
+    
+    i {
+        padding-right: 10px;
+    }
+    /*------Titres------*/
+    
+    h1 {
+        color: white;
+        font-size: 2.2vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0px;
+        border: 2px solid white;
+    }
+    
+    .presentation {
+        padding: 4vw;
+        position: absolute;
+        top: 2vw;
+        box-shadow: 1px 1px 12px white;
+        transform: scale(1);
+        transition: 0.7s;
+    }
+    
+    .presentation:hover {
+        transform: scale(1.10);
+        transition: 0.7s;
+    }
+    
+    .presentation_inside {
+        text-shadow: 1px 1px 12px white;
+    }
+    
+    h2 {
+        border-bottom: 1px solid black;
+        margin: 20px 20px 20px 50px;
+    }
+    
+    h3 {
+        margin: 15px 100px;
+    }
+    
+    .contact_interieur {
+        margin: 20px;
+    }
+    
+    .triangle_droite {
+        background-color: #4e5d66;
+        width: 0;
+        height: 17vw;
+        border: 0 solid transparent;
+        border-right-width: 70vw;
+        border-bottom: 16vw solid white;
+    }
+    
+    .triangle_gauche {
+        background-color: #88a3b3;
+        width: 0px;
+        height: 10vw;
+        border: 0 solid transparent;
+        border-right-width: 30vw;
+        border-bottom: 7vw solid;
+    }
+    
+    .triangle_gauche_contact {
+        position: relative;
+        top: -7vw;
+        display: inline-block;
+        height: 0vw;
+        width: 0;
+        border-top: 6.95vw solid transparent;
+        border-bottom: 16vw solid transparent;
+        border-left: 29.7vw solid #aed1e5;
+    }
+    
+    .bloc_triangle_gauche {
+        display: flex;
+        flex-direction: column;
+        background-color: #f4f9fc;
+        width: 30%;
+    }
+    
+    .bloc_triangle_droit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        top: 25vw;
+        position: absolute;
+    }
+    
+    .logo_interieur {
+        width: 30vw;
+    }
+    
+    .titre_competences {
+        text-align: center;
+    }
+    
+    .bordure_exterieur {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        height: 1.5vw;
+        margin: 1vw;
+    }
+    
+    .bordure_interieur_vente {
+        width: 80%;
+        margin: 0.4vw;
+        border: 2px solid #4e5d66;
+        background-color: #4e5d66;
+        height: 1vw;
+    }
+    
+    .bordure_interieur_html {
+        width: 50%;
+        margin: 0.4vw;
+        border: 2px solid #4e5d66;
+        background-color: #4e5d66;
+        height: 1vw;
+    }
+    
+    .bordure_interieur_css {
+        width: 50%;
+        margin: 0.4vw;
+        border: 2px solid #4e5d66;
+        background-color: #4e5d66;
+        height: 1vw;
+    }
+    
+    .bordure_interieur_js {
+        width: 25%;
+        margin: 0.4vw;
+        border: 2px solid #4e5d66;
+        background-color: #4e5d66;
+        height: 1vw;
+    }
